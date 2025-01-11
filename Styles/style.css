@@ -167,19 +167,33 @@ nav{
     border-radius: 16px;
     padding: 40px 45px;
 }
+.box2{
+    width: 1280px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f0ecec;
+    border-radius: 16px;
+    padding: 40px 45px;
+}
 .boxes-container{
     margin: 10%;
 }
 .box1-left{
     padding-right: 35px;
 }
+.box2-right{
+    padding-right: 100px;
+}
 .box1-left img{
+    border-radius: 20px;
+}
+.box2-left img{
     border-radius: 20px;
 }
 .read-btn{
     color: white;
     background-color: #f37906;
-    padding: 9px 9px;
+    padding: 10px 10px;
     border-radius: 6px;
     border: none;
 
