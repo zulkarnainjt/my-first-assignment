@@ -19,6 +19,7 @@ nav{
     border-radius: 8px;
     color: #01503c;
     border-color: #014937;
+    cursor: pointer;
     
 }
 .new-btn{
@@ -28,6 +29,7 @@ nav{
     padding: 17px 34px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .banner{
     display: flex;
@@ -120,6 +122,7 @@ nav{
     padding: 8px 8px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .learn-btn-2{
     color: white;
@@ -128,6 +131,7 @@ nav{
     padding: 8px 8px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .learn-btn-3{
     color: white;
@@ -136,6 +140,7 @@ nav{
     padding: 8px 8px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .box-title{
     font-size: 40px;
@@ -151,7 +156,7 @@ nav{
     text-align: justify;
     margin: 10%;
     border-radius: 16px;
-    padding: 50px;
+    padding: 30px;
     color: #474747;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -196,6 +201,7 @@ nav{
     padding: 10px 10px;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
 
 }
 .boxes-container h2{
@@ -212,3 +218,76 @@ nav{
     color: #474747;
     font-weight: bold;
 }
+.last{
+    text-align: center;
+    padding: 0px 20px 40px 40px;
+}
+.last h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.last p{
+    color: #474747;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.parent{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 0;
+
+}
+.child{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid grey;
+    background-color: #eaeef0;
+    padding: 25px 40px;
+    border-radius: 8px;
+}
+.center{
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #474747;
+    font-size: 18px;
+    font-weight: bold;
+    border: none rgb(207, 205, 205);
+    border-width: 0px;
+    border-radius: 18px;
+    
+
+}
+.space{
+    padding-top: 20px;
+}
+.donate-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    
+    
+}
+.btn-donate{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #02420c;
+    cursor: pointer;
+}
+.extra{
+    background-color: #7fa0cf;
+}
+
+ 
+
